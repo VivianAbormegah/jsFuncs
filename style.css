@@ -1,0 +1,224 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                background-color: whitesmoke;
+            }
+            
+            .fullbox {
+                height: 1200vh;
+                width: 1200px;
+                background-color: white;
+                margin-left: 80px;
+            }
+            
+            .box {
+                height: 15vh;
+                width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                background-color: rgb(63, 61, 61);
+            }
+            
+            .banner {
+                width: 150px;
+                height: 10vh;
+                margin: auto 0;
+            }
+            
+            .searchbar {
+                width: 600px;
+                height: 40px;
+                background-color: rgb(63, 61, 61);
+                margin-left: 30px;
+                display: flex;
+                margin-top: 20px;
+                border: 2px solid rgba(245, 245, 245, 0.26);
+                border-radius: 5px;
+            }
+            
+            .inbox {
+                padding-left: 5px;
+                font-size: small;
+                font-weight: bold;
+                width: 90%;
+                height: 100%;
+                border: none;
+                background-color: rgba(19, 17, 17, 0.671);
+            }
+            
+            .searchicon {
+                height: 100%;
+                background-color: rgba(19, 17, 17, 0.671);
+                width: 10%;
+                padding-right: 5px;
+            }
+            
+            .secondbox {
+                background-color: #262626;
+                display: flex;
+                justify-content: space-between;
+                height: 10vh;
+                width: 1200px;
+                margin: 0 auto;
+                padding: 10px;
+                color: #262626;
+            }
+            
+            ul {
+                margin-left: 2%;
+                width: 800px;
+                background-color: #262626;
+                justify-content: space-between;
+                color: white;
+                display: flex;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                list-style: none;
+                padding: 10px 20px;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            ul li {
+                margin-top: 10px;
+                background-color: #262626;
+            }
+            
+            .secondmenu {
+                font-size: 30px;
+                margin-top: 50px;
+                color: white;
+                background-color: white;
+                color: darkgray;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            h5 {
+                background-color: white;
+                margin-left: 20px;
+            }
+            
+            .container {
+                background-color: white;
+                margin-right: 450px;
+                height: 45px;
+                margin-top: -30px;
+                display: flex;
+                margin-left: 350px;
+                width: 850px;
+            }
+            
+            a {
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif sans-serif;
+                background-color: transparent;
+                color: #262626;
+                font-weight: 400;
+                border: 1px solid #d7d7d7;
+                padding: 0px 15px 0px 8px;
+                border-radius: 4px;
+                margin: 2px 3px 3px;
+                position: relative;
+                left: 142px;
+            }
+            
+            a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            
+            .next {
+                background-color: rgb(236, 236, 236);
+                position: relative;
+                left: 250px;
+            }
+            
+            .previous {
+                background-color: rgb(236, 236, 236);
+                position: relative;
+                left: 240px;
+            }
+            
+            .button {
+                font-family: 12px Arial, Helvetica, sans-serif sans-serif;
+                background-color: transparent;
+                color: #666;
+                font-weight: 400;
+                border: 1px solid #d7d7d7;
+                padding: 10px 12px;
+                margin-left: 60 px;
+                margin-right: 43px;
+                border-radius: 4px;
+                background-color: rgb(236, 236, 236);
+                position: relative;
+                left: 270px;
+            }
+            
+            button:hover {
+                color: #666;
+                background-color: #ddd;
+            }
+            
+            .button1 {
+                font-family: 12px Arial, Helvetica, sans-serif sans-serif;
+                color: #666;
+                font-weight: 400;
+                border: 1px solid #d7d7d7;
+                padding: 20px 12px;
+                border-radius: 4px;
+                background-color: rgb(236, 236, 236);
+                float: right;
+                margin-left: 150px;
+                position: relative;
+                left: 125px;
+            }
+            
+            .button2 {
+                font-family: 12px Arial, Helvetica, sans-serif sans-serif;
+                background-color: transparent;
+                color: black;
+                font-weight: 400;
+                border: 1px solid #d7d7d7;
+                padding: 30px 10px;
+                border-radius: 4px;
+                background-color: rgb(211, 211, 211);
+                margin-left: 15px;
+                position: relative;
+                left: 140px;
+            }
+            
+            .line:before {
+                content: "";
+                display: block;
+                height: 2px;
+                width: 780px;
+                background-color: whitesmoke;
+                position: absolute;
+                margin-top: 40px;
+                left: 100px;
+            }
+            
+            .banner1 {
+                margin-top: 60px;
+                height: 300px;
+                width: 300px;
+                margin-left: 10px;
+            }
+            .banner2{
+                margin-top: 60px;
+                height: 300px;
+                width: 300px;
+                margin-left: 10px;
+            }
+            .down{
+               float: right;
+               margin-right: 0px;
+               position: relative;
+               bottom: 200px;
+               border: none;
+               color: black;
+               font-weight: 100px;
+            }
